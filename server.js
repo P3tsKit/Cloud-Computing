@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const routes = require('./REST API/routes'); // Import routes.js dengan benar
 const app = express();
@@ -9,3 +10,6 @@ app.use('/', routes);
 app.listen(port, () => {
   console.log(`app running at http://localhost:${port}`);
 });
+
+app.get("/", (req, res) => res.send("Test"));
+
