@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require('express');
 const routes = require('./REST API/routes'); // Import routes.js dengan benar
 const app = express();
