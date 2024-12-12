@@ -1,15 +1,32 @@
-<<<<<<< HEAD
-const express = require('express');
-const routes = require('./REST API/routes'); // Import routes.js dengan benar
+const express = require("express");
+const cors = require("cors");
+const dotenv = require("dotenv");
+const userRoutes = require("./routes/userRoutes");
+const historyRoutes = require("./routes/historyRoutes");
+const diagnoseRoutes = require("./routes/diagnoseRoutes");
+const newsletterRoutes = require("./routes/newsletterRoutes");
+const { getUserData } = require("./utils/firebase");
+
+dotenv.config();
+
 const app = express();
-const port = 9000;
 
-// Gunakan middleware untuk rute-rute yang sudah didefinisikan di routes.js
-app.use('/', routes);
+// Middleware
+app.use(cors());
+app.use(express.json());
 
-app.listen(port, () => {
-  console.log(`app running at http://localhost:${port}`);
+// Rute
+app.use("/", userRoutes);
+app.use("/", historyRoutes);
+app.use("/", diagnoseRoutes);
+app.use("/", newsletterRoutes);
+
+app.get("/", (req, res) => {
+  return res.send("Service Available"); // Mengirim respons yang benar
 });
 
-app.get("/", (req, res) => res.send("Test"));
-
+// Start server
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
