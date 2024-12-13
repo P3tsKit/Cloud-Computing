@@ -7,6 +7,7 @@ P3tsKit is an innovative application designed to assist pet owners in diagnosing
 ## Table of Contents
 - [Overview](#overview)
 - [Contributor](#contributor)
+- [List of API Endpoints](#list)
 - [Environment](#environment)
 - [Cloud Architecture](#cloud-architecture)
 - [Key Features](#key-features)
