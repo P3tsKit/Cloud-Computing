@@ -135,28 +135,28 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
 ## Cloud Architecture
 
 The architecture leverages:
-- **Compute:** Google Cloud Platform (GCP) services, including Cloud Run for deploying containerized applications.
-- **Storage:** Google Cloud Storage for storing user-uploaded images.
-- **Databases:** Firestore for real-time database management.
+- **Compute :** Google Cloud Platform (GCP) services, including Cloud Run for deploying containerized applications.
+- **Storage :** Google Cloud Storage for storing user-uploaded images.
+- **Databases :** Firestore for real-time database management.
 
 ---
 
 ## Key Features
 
-1. **Model Deployment:** A pre-trained machine learning model for diagnosing pet diseases.
-2. **Scalability:** Auto-scaling backend using GCP Cloud Run.
-3. **Secure Data Management:** Encrypted storage of images and sensitive user data.
-4. **Real-time Notifications:** Integration with Firebase Cloud Messaging (FCM) for updates.
+1. **Model Deployment :** A pre-trained machine learning model for diagnosing pet diseases.
+2. **Scalability :** Auto-scaling backend using GCP Cloud Run.
+3. **Secure Data Management :** Encrypted storage of images and sensitive user data.
+4. **Real-time Notifications :** Integration with Firebase Cloud Messaging (FCM) for updates.
 
 ---
 
 ## Technology Stack
 
-- **Backend:** Node.js, Express.js
-- **Cloud Platform:** Google Cloud Platform (GCP)
-- **Database:** Firestore (NoSQL)
-- **Image Storage:** Google Cloud Storage
-- **Machine Learning:** TensorFlow
+- **Backend :** Node.js, Express.js
+- **Cloud Platform :** Google Cloud Platform (GCP)
+- **Database :** Firestore (NoSQL)
+- **Image Storage :** Google Cloud Storage
+- **Machine Learning :** TensorFlow
 
 ---
 
