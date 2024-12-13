@@ -152,7 +152,7 @@ The architecture leverages:
 
 - **Backend :** Node.js, Express.js
 - **Cloud Platform :** Google Cloud Platform (GCP)
-- **Database :** Firestore (NoSQL)
+- **Database :** Firestore 
 - **Image Storage :** Google Cloud Storage
 - **Machine Learning :** TensorFlow
 
