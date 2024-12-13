@@ -40,7 +40,7 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
 
 ---
 
-## API Endpoints
+## List of API Endpoints
 
 ### a) User Registration
 - **URL**: `/register`
