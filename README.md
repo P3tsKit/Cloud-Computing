@@ -67,12 +67,14 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
   ```json
   {
     "email": "string",
-    "password": "string"
+    "password": "string (valid email format)"
   }
 
 ### c) Change Password User
 - **URL**: `/change-password`
 - **Method**: `PUT`
+- **Headers**:
+  - `Authorization`: `Bearer <JWT_Token>`
 - **Request Body**:
   ```json
   {
@@ -91,28 +93,61 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
   - **Success (200 - OK)**:
     ```json
     {
-      "error": false,
-      "message": "Diagnosis processed successfully.",
-      "data": {
-        "diseaseName": "string",
-        "imageUrl": "string",
-        "userId": "string",
-        "createdAt": "timestamp"
-      }
+    "disease_info (based on ML prediction)": {
+        "causes": "string",
+        "description": "string",
+        "note": "string",
+        "source": "string",
+        "symptoms": "string",
+        "treatment": "string"
+      },
+    "predicted_class": "string",
+    "image_url": "string (url image on Cloud Storage)",
+    "user_id": "string",
+    "createdAt": "timestamp"
     }
-    ```
-  - **Error (400 - Bad Request)**:
-    ```json
-    {
-      "error": true,
-      "message": "File is required."
-    }
-    ```
   - **Error (500 - Internal Server Error)**:
     ```json
     {
       "error": true,
-      "message": "Error processing diagnosis."
+      "message": "Failed to fetch diagnose."
+    }
+    ```
+### e) Get History
+- **URL**: `/history`
+- **Method**: `GET`
+- **Headers**:
+  - `Authorization`: `Bearer <JWT_Token>`
+  - `Content-Type`: `multipart/form-data`
+- **Response**:
+  - **Success (200 - OK)**:
+    ```json
+    {
+    "history (based on recent diagnose)": {
+        "causes": "string",
+        "description": "string",
+        "note": "string",
+        "source": "string",
+        "symptoms": "string",
+        "treatment": "string"
+      },
+    "predicted_class": "string",
+    "image_url": "string (url image on Cloud Storage)",
+    "user_id": "string",
+    "createdAt": "timestamp"
+    }
+  - **Error (500 - Internal Server Error)**:
+    ```json
+    {
+      "error": true,
+      "message": "Failed to fetch history."
+    }
+    ```
+  - **Error (404 - Not Found)**:
+    ```json
+    {
+      "error": true,
+      "message": "No history found."
     }
     ```
 
