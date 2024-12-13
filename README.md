@@ -128,7 +128,7 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
 2. GCP App Engine
 3. Cloud Storage
 4. Cloud Run (for scalable APIs)
-5. Firebase (for authentication)
+5. Firestore (for database)
 
 ---
 
@@ -138,8 +138,6 @@ The architecture leverages:
 - **Compute:** Google Cloud Platform (GCP) services, including Cloud Run for deploying containerized applications.
 - **Storage:** Google Cloud Storage for storing user-uploaded images.
 - **Databases:** Firestore for real-time database management.
-- **Authentication:** Firebase Authentication for secure login and registration.
-- **Machine Learning:** Deployed models using Vertex AI for efficient image classification.
 
 ---
 
@@ -157,9 +155,8 @@ The architecture leverages:
 - **Backend:** Node.js, Express.js
 - **Cloud Platform:** Google Cloud Platform (GCP)
 - **Database:** Firestore (NoSQL)
-- **Authentication:** Firebase Authentication
 - **Image Storage:** Google Cloud Storage
-- **Machine Learning:** TensorFlow, Vertex AI
+- **Machine Learning:** TensorFlow
 
 ---
 
@@ -167,7 +164,7 @@ The architecture leverages:
 
 ### Prerequisites
 1. Google Cloud Platform account with billing enabled.
-2. Firebase project set up with Firestore and Authentication.
+2. Firebase project set up with Firestore.
 3. Docker installed locally for containerization.
 
 ### Steps
