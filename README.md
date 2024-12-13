@@ -257,4 +257,7 @@ The architecture leverages:
 
 ---
 
+![WhatsApp Image 2024-12-13 at 15 46 00_025dbaaa](https://github.com/user-attachments/assets/1243b2ac-1ecf-47a1-853e-d4c55d564d49)
+
+
 
