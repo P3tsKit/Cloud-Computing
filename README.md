@@ -1,7 +1,4 @@
 # P3tsKit - Cloud Computing Documentation
-
-P3tsKit is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
-
 ---
 
 ## Table of Contents
