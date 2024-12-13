@@ -251,8 +251,8 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
 ## Cloud Architecture
 
 The architecture leverages:
-- **Compute :** Google Cloud Platform (GCP) services, including Cloud Run for deploying containerized applications.
-- **Storage :** Google Cloud Storage for storing user-uploaded images.
+- **Compute :** Google Cloud Platform (GCP) services, such as App Engine for deploying backend API and Cloud Run for deploying Flask API.
+- **Storage :** Google Cloud Storage for storing user-uploaded photos.
 - **Databases :** Firestore for real-time database management.
 
 ---
