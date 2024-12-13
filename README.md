@@ -146,28 +146,21 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
     ```json
     {
     "error": false,
-    "token": "string"
+    "message": "password successfully updated."
     }
     ```
   - **Error (400 - Bad Request)**:
     ```json
     {
       "error": true,
-      "message": "All input is required."
+      "message": "All inputs are required."
     }
     ```
-  - **Error (401 - Unauthorized)**:
+  - **Error (400 - Bad Request)**:
     ```json
     {
       "error": true,
-      "message": "Email not Exist!"
-    }
-    ```
-  - **Error (401 - Unauthorized)**:
-    ```json
-    {
-      "error": true,
-      "message": "Wrong Password!"
+      "message": "User not found!"
     }
     ```
   - **Error (500 - Internal Server Error)**:
