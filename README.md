@@ -59,6 +59,31 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
     "email": "string (must be valid email format)",
     "password": "string"
   }
+- **Response**:
+  - **Success (201 - Created)**:
+    ```json
+    {
+    "error": false,
+    "id": "string",
+    "name": "string",
+    "email": "string",
+    "password": "string"
+    }
+    ```
+  - **Error (409 - Conflict)**:
+    ```json
+    {
+      "error": true,
+      "message": "The email already exists."
+    }
+    ```
+  - **Error (500 - Internal Server Error)**:
+    ```json
+    {
+      "error": true,
+      "message": "Error message."
+    }
+    ```
   
 ### b) User Login
 - **URL**: `/login`
@@ -69,6 +94,42 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
     "email": "string",
     "password": "string (valid email format)"
   }
+- **Response**:
+  - **Success (200 - OK)**:
+    ```json
+    {
+    "error": false,
+    "token": "string"
+    }
+    ```
+  - **Error (400 - Bad Request)**:
+    ```json
+    {
+      "error": true,
+      "message": "All input is required."
+    }
+    ```
+  - **Error (401 - Unauthorized)**:
+    ```json
+    {
+      "error": true,
+      "message": "Email not Exist!"
+    }
+    ```
+  - **Error (401 - Unauthorized)**:
+    ```json
+    {
+      "error": true,
+      "message": "Wrong Password!"
+    }
+    ```
+  - **Error (500 - Internal Server Error)**:
+    ```json
+    {
+      "error": true,
+      "message": "Error message."
+    }
+    ```
 
 ### c) Change Password User
 - **URL**: `/change-password`
@@ -80,6 +141,42 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
   {
     "new_password": "string"
   }
+- **Response**:
+  - **Success (200 - OK)**:
+    ```json
+    {
+    "error": false,
+    "token": "string"
+    }
+    ```
+  - **Error (400 - Bad Request)**:
+    ```json
+    {
+      "error": true,
+      "message": "All input is required."
+    }
+    ```
+  - **Error (401 - Unauthorized)**:
+    ```json
+    {
+      "error": true,
+      "message": "Email not Exist!"
+    }
+    ```
+  - **Error (401 - Unauthorized)**:
+    ```json
+    {
+      "error": true,
+      "message": "Wrong Password!"
+    }
+    ```
+  - **Error (500 - Internal Server Error)**:
+    ```json
+    {
+      "error": true,
+      "message": "Error message."
+    }
+    ```
   
 ### d) Upload Pet Diagnosis
 - **URL**: `/diagnose`
@@ -135,6 +232,7 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
     "user_id": "string",
     "createdAt": "timestamp"
     }
+    ```
   - **Error (500 - Internal Server Error)**:
     ```json
     {
