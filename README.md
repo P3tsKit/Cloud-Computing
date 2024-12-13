@@ -174,12 +174,3 @@ The architecture leverages:
    cd p3tskit-cloud
 
 
-### Perubahan Utama:
-1. **Penggabungan Komponen**:
-   - Bagian *overview*, *contributors*, dan *cloud architecture* telah digabungkan dari kedua bagian.
-2. **Setup and Deployment**:
-   - Menambahkan langkah-langkah setup dari kedua sumber menjadi lebih detail.
-3. **API Endpoints**:
-   - Tetap dalam format tabel, dengan deskripsi singkat setiap endpoint.
-
-Jika ada tambahan lain, beri tahu saya! 😊
