@@ -1,6 +1,50 @@
-# P3tskit API Documentation
+# P3tsKit - Cloud Computing Module
 
-The following APIs are designed for use within the P3tskit project. These APIs serve various functions for managing pet health diagnoses, including uploading image data, processing pet diseases, and managing user information.
+P3tsKit is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
+
+---
+
+## Table of Contents
+- [Overview](#overview)
+- [Contributor](#contributor)
+- [Environment](#environment)
+- [Cloud Architecture](#cloud-architecture)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Setup and Deployment](#setup-and-deployment)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Overview
+
+P3tsKit’s cloud computing module manages:
+1. Deployment of machine learning models for disease detection.
+2. Secure storage of user and pet data.
+3. Scalable backend infrastructure for handling app traffic.
+4. Integration with third-party services like Firebase for authentication.
+
+Pet owners often face challenges in identifying external health issues in their pets, leading to delayed treatment. Our app addresses this by using machine learning to analyze smartphone or uploaded images, quickly detecting external diseases in dogs and cats. This tool empowers pet owners to respond to their pets' health needs promptly and effectively.
+
+---
+
+## Contributor
+
+This product has been developed by group **C242-PS104** for the Bangkit Capstone Project.
+
+| Name                           | Role                  | ID             |
+|--------------------------------|-----------------------|----------------|
+| Bunga Harumalia Mardikawati    | Machine Learning      | M283B4KX0883   |
+| Hanivianka Amelia Hamson       | Machine Learning      | M283B4KX1717   |
+| Linda Magdalena                | Machine Learning      | M283B4KX2275   |
+| Nathan Tanoko                  | Cloud Computing       | C102B4KY3266   |
+| Timothy Henseputra             | Cloud Computing       | C102B4KY4346   |
+| Syifa Maulida                  | Mobile Development    | A283B4KX4276   |
+| Finka Nindy Azahra             | Mobile Development    | A283B4KX1514   |
+
+---
 
 ## 1. List of API Endpoints
 
@@ -70,53 +114,6 @@ The following APIs are designed for use within the P3tskit project. These APIs s
       "message": "Error processing diagnosis."
     }
     ```
-
-
-    # P3tsKit - Cloud Computing Module
-
-P3tsKit is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
-
----
-
-## Table of Contents
-- [Overview](#overview)
-- [Contributor](#contributor)
-- [Environment](#environment)
-- [Cloud Architecture](#cloud-architecture)
-- [Key Features](#key-features)
-- [Technology Stack](#technology-stack)
-- [Setup and Deployment](#setup-and-deployment)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
-## Overview
-
-P3tsKit’s cloud computing module manages:
-1. Deployment of machine learning models for disease detection.
-2. Secure storage of user and pet data.
-3. Scalable backend infrastructure for handling app traffic.
-4. Integration with third-party services like Firebase for authentication.
-
-Pet owners often face challenges in identifying external health issues in their pets, leading to delayed treatment. Our app addresses this by using machine learning to analyze smartphone or uploaded images, quickly detecting external diseases in dogs and cats. This tool empowers pet owners to respond to their pets' health needs promptly and effectively.
-
----
-
-## Contributor
-
-This product has been developed by group **C242-PS104** for the Bangkit Capstone Project.
-
-| Name                           | Role                  | ID             |
-|--------------------------------|-----------------------|----------------|
-| Bunga Harumalia Mardikawati    | Machine Learning      | M283B4KX0883   |
-| Hanivianka Amelia Hamson       | Machine Learning      | M283B4KX1717   |
-| Linda Magdalena                | Machine Learning      | M283B4KX2275   |
-| Nathan Tanoko                  | Cloud Computing       | C102B4KY3266   |
-| Timothy Henseputra             | Cloud Computing       | C102B4KY4346   |
-| Syifa Maulida                  | Mobile Development    | A283B4KX4276   |
-| Finka Nindy Azahra             | Mobile Development    | A283B4KX1514   |
 
 ---
 
