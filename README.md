@@ -118,7 +118,6 @@ This product has been developed by group **C242-PS104** for the Bangkit Capstone
 - **Method**: `GET`
 - **Headers**:
   - `Authorization`: `Bearer <JWT_Token>`
-  - `Content-Type`: `multipart/form-data`
 - **Response**:
   - **Success (200 - OK)**:
     ```json
