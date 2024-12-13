@@ -72,12 +72,16 @@ The following APIs are designed for use within the P3tskit project. These APIs s
     ```
 
 
-    # PetMed AI - Cloud Computing Module
+    # P3tsKit - Cloud Computing Module
 
-PetMed AI is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
+P3tsKit is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
+
+---
 
 ## Table of Contents
 - [Overview](#overview)
+- [Contributor](#contributor)
+- [Environment](#environment)
 - [Cloud Architecture](#cloud-architecture)
 - [Key Features](#key-features)
 - [Technology Stack](#technology-stack)
@@ -86,14 +90,50 @@ PetMed AI is an innovative application designed to assist pet owners in diagnosi
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## Overview
-The cloud computing module of PetMed AI manages:
+
+P3tsKit’s cloud computing module manages:
 1. Deployment of machine learning models for disease detection.
 2. Secure storage of user and pet data.
 3. Scalable backend infrastructure for handling app traffic.
 4. Integration with third-party services like Firebase for authentication.
 
+Pet owners often face challenges in identifying external health issues in their pets, leading to delayed treatment. Our app addresses this by using machine learning to analyze smartphone or uploaded images, quickly detecting external diseases in dogs and cats. This tool empowers pet owners to respond to their pets' health needs promptly and effectively.
+
+---
+
+## Contributor
+
+This product has been developed by group **C242-PS104** for the Bangkit Capstone Project.
+
+| Name                           | Role                  | ID             |
+|--------------------------------|-----------------------|----------------|
+| Bunga Harumalia Mardikawati    | Machine Learning      | M283B4KX0883   |
+| Hanivianka Amelia Hamson       | Machine Learning      | M283B4KX1717   |
+| Linda Magdalena                | Machine Learning      | M283B4KX2275   |
+| Nathan Tanoko                  | Cloud Computing       | C102B4KY3266   |
+| Timothy Henseputra             | Cloud Computing       | C102B4KY4346   |
+| Syifa Maulida                  | Mobile Development    | A283B4KX4276   |
+| Finka Nindy Azahra             | Mobile Development    | A283B4KX1514   |
+
+---
+
+## Environment
+
+**P3tsKit Backend** runs with:
+
+1. Express.js
+2. GCP App Engine
+3. Cloud Storage
+4. Cloud Run (for scalable APIs)
+5. Firebase (for authentication)
+
+---
+
 ## Cloud Architecture
+
 The architecture leverages:
 - **Compute:** Google Cloud Platform (GCP) services, including Cloud Run for deploying containerized applications.
 - **Storage:** Google Cloud Storage for storing user-uploaded images.
@@ -101,13 +141,19 @@ The architecture leverages:
 - **Authentication:** Firebase Authentication for secure login and registration.
 - **Machine Learning:** Deployed models using Vertex AI for efficient image classification.
 
+---
+
 ## Key Features
+
 1. **Model Deployment:** A pre-trained machine learning model for diagnosing pet diseases.
 2. **Scalability:** Auto-scaling backend using GCP Cloud Run.
 3. **Secure Data Management:** Encrypted storage of images and sensitive user data.
 4. **Real-time Notifications:** Integration with Firebase Cloud Messaging (FCM) for updates.
 
+---
+
 ## Technology Stack
+
 - **Backend:** Node.js, Express.js
 - **Cloud Platform:** Google Cloud Platform (GCP)
 - **Database:** Firestore (NoSQL)
@@ -115,7 +161,10 @@ The architecture leverages:
 - **Image Storage:** Google Cloud Storage
 - **Machine Learning:** TensorFlow, Vertex AI
 
+---
+
 ## Setup and Deployment
+
 ### Prerequisites
 1. Google Cloud Platform account with billing enabled.
 2. Firebase project set up with Firestore and Authentication.
@@ -124,6 +173,5 @@ The architecture leverages:
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/petmed-ai-cloud.git
-   cd petmed-ai-cloud
-
+   git clone https://github.com/your-username/p3tskit-cloud.git
+   cd p3tskit-cloud
