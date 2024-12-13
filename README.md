@@ -1,4 +1,4 @@
-# P3tsKit - Cloud Computing Module
+# P3tsKit - Cloud Computing Documentation
 
 P3tsKit is an innovative application designed to assist pet owners in diagnosing external diseases in dogs and cats using machine learning. The cloud computing module is a critical component that handles data storage, model deployment, and backend services to ensure seamless user experience and scalability.
 
@@ -14,9 +14,6 @@ P3tsKit is an innovative application designed to assist pet owners in diagnosing
 - [Technology Stack](#technology-stack)
 - [Setup and Deployment](#setup-and-deployment)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Overview
@@ -263,37 +260,5 @@ The architecture leverages:
 - **Databases :** Firestore for real-time database management.
 
 ---
-
-## Key Features
-
-1. **Model Deployment :** A pre-trained machine learning model for diagnosing pet diseases.
-2. **Scalability :** Auto-scaling backend using GCP Cloud Run.
-3. **Secure Data Management :** Encrypted storage of images and sensitive user data.
-4. **Real-time Notifications :** Integration with Firebase Cloud Messaging (FCM) for updates.
-
----
-
-## Technology Stack
-
-- **Backend :** Node.js, Express.js
-- **Cloud Platform :** Google Cloud Platform (GCP)
-- **Database :** Firestore 
-- **Image Storage :** Google Cloud Storage
-- **Machine Learning :** TensorFlow
-
----
-
-## Setup and Deployment
-
-### Prerequisites
-1. Google Cloud Platform account with billing enabled.
-2. Firebase project set up with Firestore.
-3. Docker installed locally for containerization.
-
-### Steps
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/p3tskit-cloud.git
-   cd p3tskit-cloud
 
 
