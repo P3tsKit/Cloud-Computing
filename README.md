@@ -3,7 +3,6 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Contributor](#contributor)
 - [List of API Endpoints](#list-of-api-endpoints)
 - [Environment](#environment)
 - [Cloud Architecture](#cloud-architecture)
@@ -18,22 +17,6 @@ P3tsKit’s cloud computing module manages:
 4. Integration with third-party services like Firebase for authentication.
 
 Pet owners often face challenges in identifying external health issues in their pets, leading to delayed treatment. Our app addresses this by using machine learning to analyze smartphone or uploaded images, quickly detecting external diseases in dogs and cats. This tool empowers pet owners to respond to their pets' health needs promptly and effectively.
-
----
-
-## Contributor
-
-This product has been developed by group **C242-PS104** for the Bangkit Capstone Project.
-
-| Name                           | Role                  | ID             |
-|--------------------------------|-----------------------|----------------|
-| Bunga Harumalia Mardikawati    | Machine Learning      | M283B4KX0883   |
-| Hanivianka Amelia Hamson       | Machine Learning      | M283B4KX1717   |
-| Linda Magdalena                | Machine Learning      | M283B4KX2275   |
-| Nathan Tanoko                  | Cloud Computing       | C102B4KY3266   |
-| Timothy Henseputra             | Cloud Computing       | C102B4KY4346   |
-| Syifa Maulida                  | Mobile Development    | A283B4KX4276   |
-| Finka Nindy Azahra             | Mobile Development    | A283B4KX1514   |
 
 ---
 
